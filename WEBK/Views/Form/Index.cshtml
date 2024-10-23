@@ -1,0 +1,39 @@
+﻿@model List<WEBK.Models.Form>
+
+@{
+    ViewData["Title"] = "Forms List";
+}
+
+<h1>Forms List</h1>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Full Name</th>
+        <th>Address</th>
+        <th>Waste Type</th>
+        <th>Quantity</th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var form in Model)
+    {
+        <tr>
+            <td>@form.Id</td>
+            <td>@form.FullName</td>
+            <td>@form.Address</td>
+            <td>@form.WasteType</td>
+            <td>@form.Quantity</td>
+            <td>
+                <a asp-action="Details" asp-route-id="@form.Id" class="btn btn-info">Details</a>
+                <a asp-action="Edit" asp-route-id="@form.Id" class="btn btn-warning">Edit</a>
+                <a asp-action="Delete" asp-route-id="@form.Id" class="btn btn-danger">Delete</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+<a asp-action="Create" class="btn btn-primary">Create New Form</a>
