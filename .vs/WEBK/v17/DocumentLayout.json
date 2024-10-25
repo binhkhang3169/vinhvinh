@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\BinK\\code\\vinhvinh\\vinhvinh\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4E8399DA-7D7E-46DB-A368-6048AC716F1E}|WEBK\\WEBK.csproj|d:\\bink\\code\\vinhvinh\\vinhvinh\\webk\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4E8399DA-7D7E-46DB-A368-6048AC716F1E}|WEBK\\WEBK.csproj|solutionrelative:webk\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E8399DA-7D7E-46DB-A368-6048AC716F1E}|WEBK\\WEBK.csproj|d:\\bink\\code\\vinhvinh\\vinhvinh\\webk\\views\\form\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4E8399DA-7D7E-46DB-A368-6048AC716F1E}|WEBK\\WEBK.csproj|solutionrelative:webk\\views\\form\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E8399DA-7D7E-46DB-A368-6048AC716F1E}|WEBK\\WEBK.csproj|d:\\bink\\code\\vinhvinh\\vinhvinh\\webk\\controllers\\formcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E8399DA-7D7E-46DB-A368-6048AC716F1E}|WEBK\\WEBK.csproj|solutionrelative:webk\\controllers\\formcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E8399DA-7D7E-46DB-A368-6048AC716F1E}|WEBK\\WEBK.csproj|d:\\bink\\code\\vinhvinh\\vinhvinh\\webk\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4E8399DA-7D7E-46DB-A368-6048AC716F1E}|WEBK\\WEBK.csproj|solutionrelative:webk\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E8399DA-7D7E-46DB-A368-6048AC716F1E}|WEBK\\WEBK.csproj|d:\\bink\\code\\vinhvinh\\vinhvinh\\webk\\views\\form\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4E8399DA-7D7E-46DB-A368-6048AC716F1E}|WEBK\\WEBK.csproj|solutionrelative:webk\\views\\form\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E8399DA-7D7E-46DB-A368-6048AC716F1E}|WEBK\\WEBK.csproj|d:\\bink\\code\\vinhvinh\\vinhvinh\\webk\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4E8399DA-7D7E-46DB-A368-6048AC716F1E}|WEBK\\WEBK.csproj|solutionrelative:webk\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E8399DA-7D7E-46DB-A368-6048AC716F1E}|WEBK\\WEBK.csproj|d:\\bink\\code\\vinhvinh\\vinhvinh\\webk\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E8399DA-7D7E-46DB-A368-6048AC716F1E}|WEBK\\WEBK.csproj|solutionrelative:webk\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E8399DA-7D7E-46DB-A368-6048AC716F1E}|WEBK\\WEBK.csproj|d:\\bink\\code\\vinhvinh\\vinhvinh\\webk\\views\\form\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4E8399DA-7D7E-46DB-A368-6048AC716F1E}|WEBK\\WEBK.csproj|solutionrelative:webk\\views\\form\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E8399DA-7D7E-46DB-A368-6048AC716F1E}|WEBK\\WEBK.csproj|d:\\bink\\code\\vinhvinh\\vinhvinh\\webk\\views\\form\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4E8399DA-7D7E-46DB-A368-6048AC716F1E}|WEBK\\WEBK.csproj|solutionrelative:webk\\views\\form\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E8399DA-7D7E-46DB-A368-6048AC716F1E}|WEBK\\WEBK.csproj|d:\\bink\\code\\vinhvinh\\vinhvinh\\webk\\models\\form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E8399DA-7D7E-46DB-A368-6048AC716F1E}|WEBK\\WEBK.csproj|solutionrelative:webk\\models\\form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E8399DA-7D7E-46DB-A368-6048AC716F1E}|WEBK\\WEBK.csproj|d:\\bink\\code\\vinhvinh\\vinhvinh\\webk\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E8399DA-7D7E-46DB-A368-6048AC716F1E}|WEBK\\WEBK.csproj|solutionrelative:webk\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormController.cs",
+              "DocumentMoniker": "D:\\BinK\\code\\vinhvinh\\vinhvinh\\WEBK\\Controllers\\FormController.cs",
+              "RelativeDocumentMoniker": "WEBK\\Controllers\\FormController.cs",
+              "ToolTip": "D:\\BinK\\code\\vinhvinh\\vinhvinh\\WEBK\\Controllers\\FormController.cs",
+              "RelativeToolTip": "WEBK\\Controllers\\FormController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T17:58:52.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\BinK\\code\\vinhvinh\\vinhvinh\\WEBK\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "WEBK\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\BinK\\code\\vinhvinh\\vinhvinh\\WEBK\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "WEBK\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-24T17:57:05.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\BinK\\code\\vinhvinh\\vinhvinh\\WEBK\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WEBK\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\BinK\\code\\vinhvinh\\vinhvinh\\WEBK\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WEBK\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wBEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T17:54:03.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\BinK\\code\\vinhvinh\\vinhvinh\\WEBK\\Views\\Form\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WEBK\\Views\\Form\\Edit.cshtml",
+              "ToolTip": "D:\\BinK\\code\\vinhvinh\\vinhvinh\\WEBK\\Views\\Form\\Edit.cshtml",
+              "RelativeToolTip": "WEBK\\Views\\Form\\Edit.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-24T17:41:25.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\BinK\\code\\vinhvinh\\vinhvinh\\WEBK\\Views\\Form\\Details.cshtml",
+              "RelativeDocumentMoniker": "WEBK\\Views\\Form\\Details.cshtml",
+              "ToolTip": "D:\\BinK\\code\\vinhvinh\\vinhvinh\\WEBK\\Views\\Form\\Details.cshtml",
+              "RelativeToolTip": "WEBK\\Views\\Form\\Details.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-24T17:40:48.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\BinK\\code\\vinhvinh\\vinhvinh\\WEBK\\Views\\Form\\Index.cshtml",
+              "RelativeDocumentMoniker": "WEBK\\Views\\Form\\Index.cshtml",
+              "ToolTip": "D:\\BinK\\code\\vinhvinh\\vinhvinh\\WEBK\\Views\\Form\\Index.cshtml",
+              "RelativeToolTip": "WEBK\\Views\\Form\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABMAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-24T17:39:14.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\BinK\\code\\vinhvinh\\vinhvinh\\WEBK\\Views\\Form\\Create.cshtml",
+              "RelativeDocumentMoniker": "WEBK\\Views\\Form\\Create.cshtml",
+              "ToolTip": "D:\\BinK\\code\\vinhvinh\\vinhvinh\\WEBK\\Views\\Form\\Create.cshtml",
+              "RelativeToolTip": "WEBK\\Views\\Form\\Create.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-24T17:37:55.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Form.cs",
+              "DocumentMoniker": "D:\\BinK\\code\\vinhvinh\\vinhvinh\\WEBK\\Models\\Form.cs",
+              "RelativeDocumentMoniker": "WEBK\\Models\\Form.cs",
+              "ToolTip": "D:\\BinK\\code\\vinhvinh\\vinhvinh\\WEBK\\Models\\Form.cs",
+              "RelativeToolTip": "WEBK\\Models\\Form.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBwAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T17:35:51.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\BinK\\code\\vinhvinh\\vinhvinh\\WEBK\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WEBK\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\BinK\\code\\vinhvinh\\vinhvinh\\WEBK\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WEBK\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-24T17:30:00.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\BinK\\code\\vinhvinh\\vinhvinh\\WEBK\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "WEBK\\Views\\Product\\Index.cshtml",
+              "ToolTip": "D:\\BinK\\code\\vinhvinh\\vinhvinh\\WEBK\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "WEBK\\Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAACYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-24T17:25:51.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\BinK\\code\\vinhvinh\\vinhvinh\\WEBK\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "WEBK\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\BinK\\code\\vinhvinh\\vinhvinh\\WEBK\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "WEBK\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T17:25:48.124Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

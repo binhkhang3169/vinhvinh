@@ -1,0 +1,16 @@
+﻿@model WEBK.Models.Product
+
+@{
+    ViewData["Title"] = "Product Details";
+}
+
+<h1>Product Details</h1>
+
+<div>
+    <h4>Name: @Model.Name</h4>
+    <p>Price: @Model.Price</p>
+    <p>Other information can be added here...</p>
+</div>
+
+<a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Edit</a>
+<a asp-action="Index" class="btn btn-primary">Back to List</a>

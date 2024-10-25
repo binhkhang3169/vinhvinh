@@ -10,14 +10,22 @@ namespace WEBK.Models
 
         [JsonProperty("fullName")]
         public string FullName { get; set; } = string.Empty;
-
+        [JsonProperty("email")]
+        public string Email { get; set; } = string.Empty;
+        [JsonProperty("phone")]
+        public string Phone { get; set; } = string.Empty;
         [JsonProperty("address")]
-        public string Address { get; set; } = string.Empty; 
+        public string Address { get; set; } = string.Empty;
 
         [JsonProperty("wasteType")]
         public string WasteType { get; set; } = string.Empty; 
+        [JsonProperty("accept")]
+        public bool Accept { get; set; } = false;
 
         [JsonProperty("quantity")]
-        public double Quantity { get; set; } = 0;   
+        public double Quantity { get; set; } = 0;
+
+        [JsonProperty("message")]
+        public string Message { get; set; } = string.Empty;
     }
 }

@@ -1,0 +1,39 @@
+﻿@model Tuple<List<WEBK.Models.Product>, bool>
+@{
+    ViewData["Title"] = "Product List";
+}
+
+<h1>Product List</h1>
+<table class="table">
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Price</th>
+        @if (Model.Item2)
+        {
+            <th>Actions</th>
+        }
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var product in Model.Item1)
+    {
+        <tr>
+            <td>@product.Name</td>
+            <td>@product.Price</td>
+            @if (Model.Item2)
+            {
+                <td>
+                    <a asp-action="Details" asp-route-id="@product.Id" class="btn btn-info">Details</a>
+                    <a asp-action="Edit" asp-route-id="@product.Id" class="btn btn-warning">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@product.Id" class="btn btn-danger">Delete</a>
+                </td>
+            }
+        </tr>
+    }
+    </tbody>
+</table>
+@if (Model.Item2)
+{
+    <a asp-action="Create" class="btn btn-primary">Create New Product</a>
+}

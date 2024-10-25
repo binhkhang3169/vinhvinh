@@ -8,9 +8,11 @@ var builder = WebApplication.CreateBuilder(args);
 var firebaseConfig = builder.Configuration.GetSection("Firebase");
 builder.Services.AddSingleton(new FirebaseService(firebaseConfig["BasePath"], firebaseConfig["Secret"]));
 
-builder.Services.AddControllersWithViews();
 builder.Services.AddControllers();
 builder.Services.AddHttpClient<FormController>();
+builder.Services.AddSingleton<FirebaseAuthService>();
+builder.Services.AddSession(); 
+builder.Services.AddControllersWithViews();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -25,7 +27,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
+app.UseSession();
 app.UseAuthorization();
 app.MapControllers();
 app.MapControllerRoute(

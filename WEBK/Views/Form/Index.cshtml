@@ -11,9 +11,13 @@
     <tr>
         <th>ID</th>
         <th>Full Name</th>
+        <th>Email</th>
+        <th>Phone</th>
         <th>Address</th>
         <th>Waste Type</th>
+        <th>Accept</th>
         <th>Quantity</th>
+        <th>Message</th>
         <th>Actions</th>
     </tr>
     </thead>
@@ -23,15 +27,33 @@
         <tr>
             <td>@form.Id</td>
             <td>@form.FullName</td>
+            <td>@form.Email</td>
+            <td>@form.Phone</td>
             <td>@form.Address</td>
             <td>@form.WasteType</td>
+            <td>
+                @if (form.Accept)
+                {
+                    <span class="badge bg-success">Accepted</span>
+                }
+                else
+                {
+                    <span class="badge bg-warning">Pending</span>
+                }
+            </td>
             <td>@form.Quantity</td>
+            <td>@form.Message</td>
             <td>
                 <a asp-action="Details" asp-route-id="@form.Id" class="btn btn-info">Details</a>
                 <a asp-action="Edit" asp-route-id="@form.Id" class="btn btn-warning">Edit</a>
                 <a asp-action="Delete" asp-route-id="@form.Id" class="btn btn-danger">Delete</a>
+                @if (!form.Accept)
+                {
+                    <a asp-action="Accept" asp-route-id="@form.Id" class="btn btn-success">Accept</a>
+                }
             </td>
         </tr>
+    }
     }
     </tbody>
 </table>

@@ -13,6 +13,17 @@
         <span asp-validation-for="FullName" class="text-danger"></span>
     </div>
     <div class="form-group">
+        <label asp-for="Email"></label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Phone"></label>
+        <input asp-for="Phone" class="form-control" />
+        <span asp-validation-for="Phone" class="text-danger"></span>
+    </div>
+    <div class="form-group">
         <label asp-for="Address"></label>
         <input asp-for="Address" class="form-control" />
         <span asp-validation-for="Address" class="text-danger"></span>
@@ -26,6 +37,10 @@
         <label asp-for="Quantity"></label>
         <input asp-for="Quantity" class="form-control" />
         <span asp-validation-for="Quantity" class="text-danger"></span>
+    </div><div class="form-group">
+        <label asp-for="Message"></label>
+        <input asp-for="Message" class="form-control" />
+        <span asp-validation-for="Message" class="text-danger"></span>
     </div>
     <div class="form-group">
         <input type="submit" value="Create" class="btn btn-primary" />

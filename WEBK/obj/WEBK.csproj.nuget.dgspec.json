@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\BinK\\code\\vinhvinh\\WEBK\\WEBK\\WEBK.csproj": {}
+    "D:\\BinK\\code\\vinhvinh\\vinhvinh\\WEBK\\WEBK.csproj": {}
   },
   "projects": {
-    "D:\\BinK\\code\\vinhvinh\\WEBK\\WEBK\\WEBK.csproj": {
+    "D:\\BinK\\code\\vinhvinh\\vinhvinh\\WEBK\\WEBK.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BinK\\code\\vinhvinh\\WEBK\\WEBK\\WEBK.csproj",
+        "projectUniqueName": "D:\\BinK\\code\\vinhvinh\\vinhvinh\\WEBK\\WEBK.csproj",
         "projectName": "WEBK",
-        "projectPath": "D:\\BinK\\code\\vinhvinh\\WEBK\\WEBK\\WEBK.csproj",
+        "projectPath": "D:\\BinK\\code\\vinhvinh\\vinhvinh\\WEBK\\WEBK.csproj",
         "packagesPath": "C:\\Users\\BinK\\.nuget\\packages\\",
-        "outputPath": "D:\\BinK\\code\\vinhvinh\\WEBK\\WEBK\\obj\\",
+        "outputPath": "D:\\BinK\\code\\vinhvinh\\vinhvinh\\WEBK\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\BinK\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -22,7 +22,11 @@ namespace WEBK.Controllers
         [HttpGet]
         public async Task<IActionResult> Index()
         {
-            var response = await _httpClient.GetStringAsync("https://webkk-8336a-default-rtdb.asia-southeast1.firebasedatabase.app/.json");
+            if (!Check())
+            {
+                return RedirectToAction("Login", "Login");
+            }
+            var response = await _httpClient.GetStringAsync("https://webkk-8336a-default-rtdb.asia-southeast1.firebasedatabase.app/from.json");
             var formsDict = JsonConvert.DeserializeObject<Dictionary<string, Form>>(response);
             var forms = formsDict?.Values.ToList() ?? new List<Form>();
             return View(forms);
@@ -32,7 +36,11 @@ namespace WEBK.Controllers
         [HttpGet("{id}")]
         public async Task<IActionResult> Details(string id)
         {
-            var response = await _httpClient.GetStringAsync($"https://webkk-8336a-default-rtdb.asia-southeast1.firebasedatabase.app/{id}.json");
+            if (!Check())
+            {
+                return RedirectToAction("Login", "Login");
+            }
+            var response = await _httpClient.GetStringAsync($"https://webkk-8336a-default-rtdb.asia-southeast1.firebasedatabase.app/from/{id}.json");
             var form = JsonConvert.DeserializeObject<Form>(response);
             if (form == null)
             {
@@ -45,6 +53,10 @@ namespace WEBK.Controllers
         [HttpGet("create")]
         public IActionResult Create()
         {
+            if (!Check())
+            {
+                return RedirectToAction("Login", "Login");
+            }
             return View();
         }
 
@@ -53,7 +65,7 @@ namespace WEBK.Controllers
         public async Task<IActionResult> Create(Form form)
         {
             form.Id = Guid.NewGuid().ToString();
-            var response = await _httpClient.PostAsJsonAsync("https://webkk-8336a-default-rtdb.asia-southeast1.firebasedatabase.app/.json", form);
+            var response = await _httpClient.PostAsJsonAsync("https://webkk-8336a-default-rtdb.asia-southeast1.firebasedatabase.app/from.json", form);
 
             if (response.IsSuccessStatusCode)
             {
@@ -73,7 +85,11 @@ namespace WEBK.Controllers
         [HttpGet("edit/{id}")]
         public async Task<IActionResult> Edit(string id)
         {
-            var response = await _httpClient.GetStringAsync($"https://webkk-8336a-default-rtdb.asia-southeast1.firebasedatabase.app/{id}.json");
+            if (!Check())
+            {
+                return RedirectToAction("Login", "Login");
+            }
+            var response = await _httpClient.GetStringAsync($"https://webkk-8336a-default-rtdb.asia-southeast1.firebasedatabase.app/from/{id}.json");
             var form = JsonConvert.DeserializeObject<Form>(response);
             if (form == null)
             {
@@ -91,7 +107,7 @@ namespace WEBK.Controllers
                 return BadRequest();
             }
 
-            var response = await _httpClient.PutAsJsonAsync($"https://webkk-8336a-default-rtdb.asia-southeast1.firebasedatabase.app/{id}.json", form);
+            var response = await _httpClient.PutAsJsonAsync($"https://webkk-8336a-default-rtdb.asia-southeast1.firebasedatabase.app/from/{id}.json", form);
             if (response.IsSuccessStatusCode)
             {
                 return RedirectToAction(nameof(Details), new { id });
@@ -104,13 +120,61 @@ namespace WEBK.Controllers
         [HttpGet("delete/{id}")]
         public async Task<IActionResult> Delete(string id)
         {
-            var response = await _httpClient.DeleteAsync($"https://webkk-8336a-default-rtdb.asia-southeast1.firebasedatabase.app/{id}.json");
+            if (!Check())
+            {
+                return RedirectToAction("Login", "Login");
+            }
+            var response = await _httpClient.DeleteAsync($"https://webkk-8336a-default-rtdb.asia-southeast1.firebasedatabase.app/from/{id}.json");
             if (response.IsSuccessStatusCode)
             {
                 return RedirectToAction(nameof(Index));
             }
 
             return NotFound(new { message = "Form not found." });
+        }
+        // GET: form/accept/{id}
+        [HttpGet("accept/{id}")]
+        public async Task<IActionResult> Accept(string id)
+        {
+            // Kiểm tra nếu chưa đăng nhập
+            if (!Check())
+            {
+                return RedirectToAction("Login", "Login");
+            }
+
+            // Lấy form từ Firebase dựa trên id
+            var response = await _httpClient.GetStringAsync($"https://webkk-8336a-default-rtdb.asia-southeast1.firebasedatabase.app/from/{id}.json");
+            var form = JsonConvert.DeserializeObject<Form>(response);
+
+            // Nếu form không tồn tại
+            if (form == null)
+            {
+                return NotFound(new { message = "Form not found." });
+            }
+
+            // Cập nhật thuộc tính Accept thành true
+            form.Accept = true;
+
+            // Gửi yêu cầu cập nhật form lên Firebase
+            var updateResponse = await _httpClient.PutAsJsonAsync($"https://webkk-8336a-default-rtdb.asia-southeast1.firebasedatabase.app/from/{id}.json", form);
+
+            // Kiểm tra xem cập nhật có thành công không
+            if (updateResponse.IsSuccessStatusCode)
+            {
+                return RedirectToAction(nameof(Index)); // Chuyển hướng về trang danh sách
+            }
+
+            return StatusCode(500, new { message = "Failed to update form." });
+        }
+        private bool Check()
+        {
+            var userEmail = HttpContext.Session.GetString("UserEmail");
+            if (string.IsNullOrEmpty(userEmail))
+            {
+                return false;
+            }
+
+            return true;
         }
     }
 }

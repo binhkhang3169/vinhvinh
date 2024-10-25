@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Login";
+}
+
+<h2>Login</h2>
+
+<form asp-action="Login" method="post">
+    <label for="authKey">Authentication Key:</label>
+    <input type="text" id="authKey" name="authKey" required />
+    <button type="submit">Login</button>
+</form>
+
+@if (!string.IsNullOrEmpty(ViewData["Error"]?.ToString()))
+{
+    <p style="color: red;">@ViewData["Error"]</p>
+}
